@@ -8,7 +8,7 @@ import random
 from datetime import datetime
 
 
-def get_links(start,stop):
+def get_links(start,stop, scrape_num):
 	urls = []
 	for i in range(start,stop+1):
 		ua = UserAgent()
@@ -32,7 +32,7 @@ def get_links(start,stop):
 		urls.append(values_df)
 	url_df = pd.concat(urls)
     
-	prev_df = pd.read_csv('breit12.csv')
+	prev_df = pd.read_csv(f'breit{scrape_num}.csv')
 	stopper = prev_df.iloc[0,3]
 	dfs = []
 	for row in range(len(url_df)):
@@ -76,5 +76,5 @@ def get_links(start,stop):
 			dfs.append(indiv_art)
 	dfx = pd.DataFrame(dfs)
 	return dfx.to_csv(f'{start}_{stop}.csv')
-get_links(1,10)
+get_links(1,5,12)
 
