@@ -76,5 +76,5 @@ def get_links(start,stop, scrape_num):
 			dfs.append(indiv_art)
 	dfx = pd.DataFrame(dfs)
 	return dfx.to_csv(f'{start}_{stop}.csv')
-get_links(1,5,12)
+get_links(1,5,16)
 
