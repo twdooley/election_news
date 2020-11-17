@@ -8,10 +8,11 @@
 To understand the language used by self-described "alt-right" media site Breitbart.com.
 
 ## Contents
-* BreitBot, a Breitbart headline generator trained on nearly 16,000 election articles can be found at this [link](https://huggingface.co/twdooley/breitbot?text=)
+* BreitBot, a Breitbart headline generator trained on nearly 16,000 election articles can be found at this [link](https://huggingface.co/twdooley/breitbot?text=). You can also follow the bot on twitter [@realBreitBot](https://twitter.com/realBreitBot)
 * `scrapebart.py` and `merger.py` were built to sequentially scrape the site for articles before the Election and continually until 11 November. 
 * `nlp_clean.ipynb` presents the bulk of analysis and model making. The images generated can be found in the `images` directory in this repo. 
-* `breit_transformers.ipynb` used the transformers library to examine the data. In particular, I used this notebook to sentiment score the main csv. 
+* `breit_transformers.ipynb` used the transformers library to examine the data. In particular, I used this notebook to sentiment score the main csv.
+* `breit.ipynb` trains "BreitBot" 
 
 
 ## Methods:
