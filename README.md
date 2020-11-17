@@ -12,7 +12,7 @@ To understand the language used by self-described "alt-right" media site Breitba
 * `scrapebart.py` and `merger.py` were built to sequentially scrape the site for articles before the Election and continually until 11 November. 
 * `nlp_clean.ipynb` presents the bulk of analysis and model making. The images generated can be found in the `images` directory in this repo. 
 * `breit_transformers.ipynb` used the transformers library to examine the data. In particular, I used this notebook to sentiment score the main csv.
-* `breit.ipynb` trains "BreitBot" 
+* `breit.ipynb` trains "BreitBot". Huge credit to Richard Bownes, PhD and his article ["Fine Tuning GPT-2 for Magic the Gathering Flavour Text Generation"](https://medium.com/swlh/fine-tuning-gpt-2-for-magic-the-gathering-flavour-text-generation-3bafd0f9bb93) 
 
 
 ## Methods:
