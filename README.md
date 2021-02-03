@@ -39,11 +39,13 @@ NMF yielded the following topics:
 
 <br>
 There is much insight in these top ten topics. I will list a few in no particular order below. 
+
 * Coronavirus/Covid-19 did not appear as its own topic. Rather, it formed a subtopic almost always associated with Trump. 
 * Hunter Biden was a significant topic for Breitbart. In the month of October his topic accounted for more articles than his father, the Democratic nominee and President-Elect.
 * Racial Politics and support for the police did not see a significant spike in the wake of the murders of George Floyd, Ahmaud Arbery, and Breonna Taylor. 
 Instead, this topic occupies a rather consistent tranche of articles throughout the scope of this investigation. 
 * Perhaps most interestingly, the focus on postal voting and supposed 'fraud' began as early as April 2020 during the Primary elections and the height of the first Covid wave. 
+
 <br>
 
 ![https://github.com/twdooley/election_news/blob/master/images/fraudts.png](https://github.com/twdooley/election_news/blob/master/images/fraudts.png)
