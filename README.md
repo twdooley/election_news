@@ -8,10 +8,11 @@
 To understand the language used by self-described "alt-right" media site Breitbart.com.
 
 ## Contents
-* BreitBot, a Breitbart headline generator trained on nearly 16,000 election articles can be found at this [link](https://huggingface.co/twdooley/breitbot?text=)
+* BreitBot, a Breitbart headline generator trained on nearly 16,000 election articles can be found at this [link](https://huggingface.co/twdooley/breitbot?text=). You can also follow the bot on twitter [@realBreitBot](https://twitter.com/realBreitBot)
 * `scrapebart.py` and `merger.py` were built to sequentially scrape the site for articles before the Election and continually until 11 November. 
 * `nlp_clean.ipynb` presents the bulk of analysis and model making. The images generated can be found in the `images` directory in this repo. 
-* `breit_transformers.ipynb` used the transformers library to examine the data. In particular, I used this notebook to sentiment score the main csv. 
+* `breit_transformers.ipynb` used the transformers library to examine the data. In particular, I used this notebook to sentiment score the main csv.
+* `breit.ipynb` trains "BreitBot". Huge credit to Richard Bownes, PhD and his article ["Fine Tuning GPT-2 for Magic the Gathering Flavour Text Generation"](https://medium.com/swlh/fine-tuning-gpt-2-for-magic-the-gathering-flavour-text-generation-3bafd0f9bb93) 
 
 
 ## Methods:
@@ -38,11 +39,13 @@ NMF yielded the following topics:
 
 <br>
 There is much insight in these top ten topics. I will list a few in no particular order below. 
+
 * Coronavirus/Covid-19 did not appear as its own topic. Rather, it formed a subtopic almost always associated with Trump. 
 * Hunter Biden was a significant topic for Breitbart. In the month of October his topic accounted for more articles than his father, the Democratic nominee and President-Elect.
 * Racial Politics and support for the police did not see a significant spike in the wake of the murders of George Floyd, Ahmaud Arbery, and Breonna Taylor. 
 Instead, this topic occupies a rather consistent tranche of articles throughout the scope of this investigation. 
 * Perhaps most interestingly, the focus on postal voting and supposed 'fraud' began as early as April 2020 during the Primary elections and the height of the first Covid wave. 
+
 <br>
 
 ![https://github.com/twdooley/election_news/blob/master/images/fraudts.png](https://github.com/twdooley/election_news/blob/master/images/fraudts.png)
